@@ -1,0 +1,92 @@
+@import 'variables';
+@import 'layout';
+
+
+/*Version SM*/
+
+@mixin base {
+    background-color: $primary;
+    border: solid $secondary 2px;
+    float: left;
+
+}
+
+.col-12-sm {
+    width: 100%;
+    @include base;
+}
+
+.col-8-sm {
+    width: calc(100%/12*8);
+    @include base;
+}
+
+.col-6-sm {
+    width: calc(100%/2);
+    @include base;
+}
+
+/*Version MD*/
+
+@media screen and (min-width:756px) {
+    .col-12-md {
+        width: 100%;
+        @include base;
+    }
+
+    .col-8-md {
+        width: calc(100%/12*8);
+        @include base;
+    }
+
+    .col-4-md {
+        width: calc(100%/12*4);
+        @include base;
+
+    }
+
+    .col-3-md {
+        width: calc(100%/12*3);
+        @include base;
+    }
+}
+
+/*Version LG*/
+
+@media screen and (min-width:1060px) {
+    .col-12-lg {
+        width: 100%;
+        @include base;
+    }
+
+    .col-8-lg {
+        width: calc(100%/12*8);
+        @include base;
+    }
+
+    .col-6-lg {
+        width: calc(100%/12*6);
+        @include base;
+
+    }
+
+    .col-4-lg {
+        width: calc(100%/12*4);
+        @include base;
+    }
+
+    .col-3-lg {
+        width: calc(100%/12*3);
+        @include base;
+    }
+
+    .col-2-lg {
+        width: calc(100%/12*2);
+        @include base;
+    }
+
+    .col-1-lg {
+        width: calc(100%/12);
+        @include base;
+    }
+}

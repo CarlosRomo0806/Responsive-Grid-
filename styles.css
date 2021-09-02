@@ -1,0 +1,107 @@
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-12-sm {
+  width: 100%;
+  float: left;
+  background-color: purple;
+  border: solid blue 2px;
+}
+
+.col-8-sm {
+  width: calc(100%/12*8);
+  float: left;
+  background-color: purple;
+  border: solid blue 2px;
+}
+
+.col-6-sm {
+  width: calc(100%/2);
+  float: left;
+  background-color: purple;
+  border: solid blue 2px;
+}
+
+@media screen and (min-width: 756px) {
+  .col-12-md {
+    width: 100%;
+    float: left;
+    background-color: purple;
+    border: solid blue 2px;
+  }
+
+  .col-8-md {
+    width: calc(100%/12*8);
+    float: left;
+    background-color: purple;
+    border: solid blue 2px;
+  }
+
+  .col-4-md {
+    width: calc(100%/12*4);
+    float: left;
+    background-color: purple;
+    border: solid blue 2px;
+  }
+
+  .col-3-md {
+    width: calc(100%/12*3);
+    float: left;
+    background-color: purple;
+    border: solid blue 2px;
+  }
+}
+
+@media screen and (min-width: 1060px) {
+  .col-12-lg {
+    width: 100%;
+    float: left;
+    background-color: purple;
+    border: solid blue 2px;
+  }
+
+  .col-8-lg {
+    width: calc(100%/12*8);
+    float: left;
+    background-color: purple;
+    border: solid blue 2px;
+  }
+
+  .col-6-lg {
+    width: calc(100%/12*6);
+    float: left;
+    background-color: purple;
+    border: solid blue 2px;
+  }
+
+  .col-4-md {
+    width: calc(100%/12*4);
+    float: left;
+    background-color: purple;
+    border: solid blue 2px;
+  }
+
+  .col-3-lg {
+    width: calc(100%/12*3);
+    float: left;
+    background-color: purple;
+    border: solid blue 2px;
+  }
+
+  .col-2-lg {
+    width: calc(100%/12*2);
+    float: left;
+    background-color: purple;
+    border: solid blue 2px;
+  }
+
+  .col-1-lg {
+    width: calc(100%/12);
+    float: left;
+    background-color: purple;
+    border: solid blue 2px;
+  }
+}
